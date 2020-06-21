@@ -35,7 +35,7 @@
              <property name="dataSource" ref="dataSource"/>
              <property name="hibernateProperties">
                  <props>
-                 <prop key="hibernate.dialect">org.hibernate.dialect.MySQL57Dialect</prop>
+                 <prop key="hibernate.dialect">org.hibernate.dialect.MySQL8Dialect</prop>
                  <prop key="hibernate.hbm2ddl.auto">update</prop>
                  <prop key="hibernate.show_sql">true</prop>
                  </props>
@@ -43,7 +43,7 @@
              
              <property name="annotatedClasses">
                  <list>
-                      <value>com.miniguru.entity</value>
+                      <value>com.miniguru.entity.homepage</value>
                  </list>
              </property>        
         </bean>
